@@ -1,0 +1,80 @@
+# =========================
+# Global / OS
+# =========================
+*.log
+*.pot
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+*.lock
+.vscode/
+.idea/
+
+# =========================
+# Python / Django (backend)
+# =========================
+backend/__pycache__/
+backend/staticfiles/
+backend/media/
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.tox/
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env
+backend/.env.*
+backend/db.sqlite3
+backend/logs/
+backend/tmp/
+
+# Keep migrations tracked
+# (so no backend/**/migrations/ ignore)
+
+# =========================
+# Node / React (frontend)
+# =========================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.turbo/
+frontend/.parcel-cache/
+frontend/.npm/
+frontend/.yarn/
+frontend/.pnp.*
+frontend/.env
+frontend/.env.*
+frontend/.eslintcache
+frontend/.cache/
+frontend/tmp/
+frontend/coverage/
+
+# =========================
+# Cypress
+# =========================
+frontend/cypress/screenshots/
+frontend/cypress/videos/
+frontend/cypress/downloads/
+frontend/cypress/.output/
+frontend/.cypress-cache/
+frontend/.cypress/
+
+# =========================
+# Misc
+# =========================
+.env
+.env.*
+*.sqlite3
+*.coverage
+*.py[cod]
+__pypackages__/
